@@ -1,3 +1,11 @@
+//ex 3
+//function string(){
+//     let s = window.prompt("Digite uma palavra: ")
+//     window.alert(s.slice(1,-1))
+// }
+
+
+
 function informarvalores(){
     n1 = window.prompt("Informe um número: ")
     n2 = window.prompt("Informe outro valor:")
