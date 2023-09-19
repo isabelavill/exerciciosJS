@@ -1,7 +1,18 @@
 function listarCasos() {
     let todosOsCasos = []
     //--- inclua seu algoritmo aqui ---
-
+    for(i=0;i<=99;i++){
+        let potencia= i**2
+        let potenciaString = potencia.toString()
+        if(potenciaString.length == 4){
+            pt1 = Number(potenciaString.slice(0,2))
+            pt2= Number(potenciaString.slice(2,5))
+            if(pt1+pt2 == i){
+                todosOsCasos.push(i)
+            }
+            
+        }
+    }
     
 
     //--- ---
